@@ -6,21 +6,24 @@
 
 /* Text styling for body and headers */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 h1 {
     font-weight: 600;
     color: #6eaeda;
+    font-family: 'Oswald', Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
     font-weight: 600;
+    font-size: 1.5rem;
     color: #a3cbe2;
     margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
+h3, .bolded-text{
     font-weight: 600;
     font-size: larger;
     color: #c4d4d4;

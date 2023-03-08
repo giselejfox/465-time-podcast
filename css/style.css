@@ -11,33 +11,34 @@ body {
 
 h1 {
     font-weight: 600;
-    color: red;
+    color: #6eaeda;
 }
 
 h2 {
     font-weight: 600;
-    color: magenta;
+    color: #a3cbe2;
+    margin-top: 1rem;
 }
 
 h3 {
     font-weight: 600;
     font-size: larger;
-    color: pink;
+    color: #c4d4d4;
     margin-top: 1rem;
 }
 
 h4 {
     font-size: larger;
     font-weight: 600;
-    color: pink;
+    color: #bbdbe7;
 }
 
 a {
-    color: red;
+    color: #c4d4d4;
 }
 
 a:hover {
-    color: blue;
+    color: #a3cbe2;
 }
 
 li {
@@ -48,32 +49,13 @@ li {
     font-size: large;
 }
 
-/* Collapsibles */
-.collapsed-content {
-    padding-left: 1rem;
-    background-color: #d6e8ff;
-}
-
-.collapsible-button {
-    border: none;
-    background-color: white;
-}
-
-.objectives {
-    font-size: large;
-}
-
-.indented {
-    margin-left: 1rem
-}
-
 /* Navbar */
 .navbar {
     padding-top: 1rem;
     /* padding-bottom: 1rem; */
     margin-bottom: 1rem;
     font-weight: 600;
-    background-color: pink;
+    background-color: #deeef3;
 }
 
 .navbar-brand {
@@ -86,23 +68,17 @@ li {
     margin-top: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    background-color: gray;
+    background-color: #c4d4de;
     padding-bottom: 1rem;
 }
 
-.logo-col {
-    margin-top: 2.5rem;
-    align-items: center;
+/* Table */
+.table-header {
+    background-color: #deeef3;
 }
-
-/* Jumbotron */
-.jumbotron h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.jumbotron {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    background-position: center;
+.table-component {
+    border-color: #c4d4de;
+    border-width: 0.025rem;
+    border-style: solid;
+    padding: 0.5rem;
 }

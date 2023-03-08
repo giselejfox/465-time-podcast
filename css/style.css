@@ -1,0 +1,108 @@
+/* ____ General Styling _____ */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Text styling for body and headers */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    color: red;
+}
+
+h2 {
+    font-weight: 600;
+    color: magenta;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: larger;
+    color: pink;
+    margin-top: 1rem;
+}
+
+h4 {
+    font-size: larger;
+    font-weight: 600;
+    color: pink;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+li {
+    margin-bottom: .5rem;
+}
+
+.subtitle {
+    font-size: large;
+}
+
+/* Collapsibles */
+.collapsed-content {
+    padding-left: 1rem;
+    background-color: #d6e8ff;
+}
+
+.collapsible-button {
+    border: none;
+    background-color: white;
+}
+
+.objectives {
+    font-size: large;
+}
+
+.indented {
+    margin-left: 1rem
+}
+
+/* Navbar */
+.navbar {
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+    margin-bottom: 1rem;
+    font-weight: 600;
+    background-color: pink;
+}
+
+.navbar-brand {
+    margin-left: 3rem;
+    font-size: large;
+}
+
+/* Footer */
+.footer {
+    margin-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: gray;
+    padding-bottom: 1rem;
+}
+
+.logo-col {
+    margin-top: 2.5rem;
+    align-items: center;
+}
+
+/* Jumbotron */
+.jumbotron h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.jumbotron {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-position: center;
+}

@@ -80,6 +80,15 @@ li {
     font-size: large;
 }
 
+.navbar-nav {
+    margin-right: 2rem;
+}
+
+.nav-item {
+    margin-right: 1rem;
+    color: #6eaeda;
+}
+
 /* Footer */
 .footer {
     margin-top: 1rem;

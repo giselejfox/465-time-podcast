@@ -49,6 +49,11 @@ li {
     margin-bottom: .5rem;
 }
 
+img {
+   width: 100%;
+   height: 100%;
+}
+
 /* For carousel */
 #carousel-container-div {
     justify-content: center; 

@@ -54,6 +54,11 @@ img {
    height: 100%;
 }
 
+#cover-image {
+    width: 75%;
+    /* padding-left: 12%; */
+}
+
 /* For carousel */
 #carousel-container-div {
     justify-content: center; 

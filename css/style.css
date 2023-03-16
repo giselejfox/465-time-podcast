@@ -19,7 +19,7 @@ h2 {
     font-weight: 600;
     font-size: 1.5rem;
     color: #a3cbe2;
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -50,23 +50,28 @@ li {
 }
 
 img {
-   width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 #cover-image {
     width: 75%;
-    /* padding-left: 12%; */
+}
+
+audio {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
 }
 
 /* For carousel */
 #carousel-container-div {
-    justify-content: center; 
+    justify-content: center;
     display: flex;
 }
 
 #carouselExampleIndicators {
-    width: 75%; 
+    width: 75%;
     margin-bottom: 2rem;
 }
 
